@@ -21,6 +21,8 @@ html {
   body {
     margin: 0;
     min-height: 100vh;
+    background: #000000E5;
+
   }
   main {
     display: block;
