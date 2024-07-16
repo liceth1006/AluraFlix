@@ -1,10 +1,27 @@
 {
+  "categoria": [
+    {
+      "id":1,
+      "nombre":"FrontEnd"
+
+    },
+    {
+      "id":2,
+      "nombre":"Backend"
+    },
+    {
+      "id":3,
+      "nombre":"innovación y gestión"
+    }
+
+  ],
+
   "videos": [
     {
       "id": 1,
-      "titulo": "Como utilizar el Display block, inline, inline-block",
-      "imagen": "https://caelum-online-public.s3.amazonaws.com/ESP-2052+-++React%3A+practicando+React+con+Js/282x425+-+Jean.png",
-      "link": "https://www.youtube.com/embed/YOp2Zpu0Ct0?si=EoY060L_zZJpFEVA",
+      "titulo": "Cuándo usar let, var y const? #AluraMás",
+      "imagen": "https://www.youtube.com/embed/PztCEdIJITY?si=yb43T6Tr18o46n6O",
+      "link": "https://www.youtube.com/embed/PztCEdIJITY?si=yb43T6Tr18o46n6O",
       "categoria": "1",
       "descripcion":"aaaa"
     },
