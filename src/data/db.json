@@ -1,53 +1,53 @@
 {
-  "categoria": [
+  "categorias": [
     {
-      "id":1,
-      "nombre":"FrontEnd"
-
+      "id": "1",
+      "nombre": "FrontEnd",
+      "color": "#6bd1ff"
     },
     {
-      "id":2,
-      "nombre":"Backend"
+      "id": "2",
+      "nombre": "Backend",
+      "color": "#00C86F"
     },
     {
-      "id":3,
-      "nombre":"innovación y gestión"
+      "id": "3",
+      "nombre": "innovación y gestión",
+      "color": "#FFBA05"
     }
-
   ],
-
   "videos": [
     {
-      "id": 1,
-      "titulo": "Cuándo usar let, var y const? #AluraMás",
-      "imagen": "https://www.youtube.com/embed/PztCEdIJITY?si=yb43T6Tr18o46n6O",
-      "link": "https://www.youtube.com/embed/PztCEdIJITY?si=yb43T6Tr18o46n6O",
-      "categoria": "1",
-      "descripcion":"aaaa"
-    },
-    {
-      "id": 2,
+      "id": "2",
       "titulo": "Productividad en el trabajo remoto",
       "imagen": "https://caelum-online-public.s3.amazonaws.com/ESP-2052+-++React%3A+practicando+React+con+Js/282x425+-+Gabi.png",
       "link": "https://www.youtube.com/embed/AULPtYo25Lw?si=UGdKX1NSrEcQ0jfn",
       "categoria": "1",
-      "descripcion":"aaaa"
+      "descripcion": "aaaa"
     },
     {
-      "id": 3,
-      "titulo": "¿Cuáles son las principales áreas de la programación?",
-      "imagen": "https://caelum-online-public.s3.amazonaws.com/ESP-2052+-++React%3A+practicando+React+con+Js/282x425+-+Genesis.png",
-      "link": "https://www.youtube.com/embed/03cxUlwLVt4?si=zVCUQNO-eS2RZQTO",
-      "categoria": "1",
-      "descripcion":"aaaa"
-    },
-    {
-      "id": 4,
+      "id": "4",
       "titulo": "Detección de intruso con IA",
       "imagen": "https://caelum-online-public.s3.amazonaws.com/ESP-2052+-++React%3A+practicando+React+con+Js/282x425+-+Ale.png",
       "link": "https://www.youtube.com/embed/5T_Q_NtNLZE?si=M7D0JeagaKqsoaFs",
-      "categoria": "1",
-      "descripcion":"aaaa"
+      "categoria": "3",
+      "descripcion": "aaaa"
+    },
+    {
+      "id": "5",
+      "titulo": "Detección de intruso con IA",
+      "imagen": "https://caelum-online-public.s3.amazonaws.com/ESP-2052+-++React%3A+practicando+React+con+Js/282x425+-+Ale.png",
+      "link": "https://www.youtube.com/embed/5T_Q_NtNLZE?si=M7D0JeagaKqsoaFs",
+      "categoria": "2",
+      "descripcion": "aaaa"
+    },
+    {
+      "id": "7",
+      "titulo": "Detección de intruso con IA",
+      "imagen": "https://caelum-online-public.s3.amazonaws.com/ESP-2052+-++React%3A+practicando+React+con+Js/282x425+-+Ale.png",
+      "link": "https://www.youtube.com/embed/5T_Q_NtNLZE?si=M7D0JeagaKqsoaFs",
+      "categoria": "2",
+      "descripcion": "aaaa"
     }
   ]
 }

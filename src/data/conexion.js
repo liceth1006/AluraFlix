@@ -1,9 +1,14 @@
-const URL_BASE = "http://localhost:3001/videos";
+const URL_BASE = "http://localhost:3001/";
+
+async function getCategorias(){
+  const response = await fetch(`${URL_BASE}categorias`)
+  const data = response.json()
+  return data
+}
 
 async function getVideos() {
-  const response = await fetch(URL_BASE);
+  const response = await fetch(`${URL_BASE}videos`);
   const data = await response.json();
-console.log("conexion",data)
   return data;
 }
 
@@ -24,7 +29,10 @@ async function postVideos(titulo, categoria, imagen, link, descripcion) {
 }
 
 async function deleteVideos(id) {
-  const response = await fetch(`${URL_BASE}/${id}`);
+  const response = await fetch(`${URL_BASE}videos/${id}`,{
+    method:"DELETE",
+      headers:{'content-type': 'application/json'},
+    });
   const data = await response.json();
   return data;
 }
@@ -32,5 +40,6 @@ async function deleteVideos(id) {
 export const conexion = {
   getVideos,
   postVideos,
+  getCategorias,
   deleteVideos
 };
